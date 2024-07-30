@@ -1,0 +1,1 @@
+import{_ as o}from"./BuildItem.js";import{o as e,c as n,k as s}from"./vendor.js";const r={name:"my-button"},a={class:"my-button"};function c(t,_,d,p,m,u){return e(),n("button",a,[s(t.$slots,"default",{},void 0)])}const l=o(r,[["render",c],["__scopeId","data-v-217d53e6"]]);export{l as M};
