@@ -3,10 +3,10 @@ import { defineStore } from 'pinia'
 export const useParameters = defineStore({
 	id: 'parameters',
 	state: () => ({
-		isAuth: true,
-		login: 'Admin',
+		isAuth: false,
+		login: null,
 		password: null,
-		isAdmin: true,
+		isAdmin: false,
 		dialogVisible: false
 	}),
 	actions: {
@@ -23,7 +23,6 @@ export const useParameters = defineStore({
 			this.isAdmin = newValue
 		},
 		setDialogVisible(newValue) {
-			console.log('MESSAGE')
 			this.dialogVisible = newValue
 		}
 	}

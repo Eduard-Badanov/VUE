@@ -53,7 +53,6 @@ export const useBuilds = defineStore({
 	}),
 	actions: {
 		deleteBuild(name) {
-			console.log(name);
 			this.allBuilds = [...this.allBuilds].filter((el) => el.name !== name)
 		},
 		setBuild(build) {

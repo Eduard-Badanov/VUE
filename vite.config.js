@@ -1,13 +1,14 @@
-import { fileURLToPath, URL } from 'node:url'
-
 import vue from '@vitejs/plugin-vue'
+import { fileURLToPath, URL } from 'node:url'
 import { defineConfig } from 'vite'
+import { ViteMinifyPlugin } from 'vite-plugin-minify'
 
 // https://vitejs.dev/config/
 export default defineConfig({
   base: './',
   plugins: [
     vue(),
+		ViteMinifyPlugin(),
   ],
   resolve: {
     alias: {
