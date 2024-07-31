@@ -16,13 +16,13 @@ export default {
 
 <style>
 @font-face {
-  src: url("./fonts/JetBrainsMono-Regular.ttf");
+  src: url("/fonts/JetBrainsMono-Regular.ttf");
   font-family: 'JetBrains Mono';
   font-weight: 400;
   font-style: normal
 }
 @font-face {
-  src: url("./fonts/JetBrainsMono-Italic.ttf");
+  src: url("/fonts/JetBrainsMono-Italic.ttf");
   font-family: 'JetBrains Mono';
   font-weight: 400;
   font-style: italic
