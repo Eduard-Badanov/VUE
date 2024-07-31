@@ -16,13 +16,13 @@ export default {
 
 <style>
 @font-face {
-  src: '/public/fonts/JetBrainsMono-Regular.ttf';
+  src: url("./fonts/JetBrainsMono-Regular.ttf");
   font-family: 'JetBrains Mono';
   font-weight: 400;
   font-style: normal
 }
 @font-face {
-  src: '/public/fonts/JetBrainsMono-Italic.ttf';
+  src: url("./fonts/JetBrainsMono-Italic.ttf");
   font-family: 'JetBrains Mono';
   font-weight: 400;
   font-style: italic
@@ -33,7 +33,7 @@ export default {
   box-sizing: border-box !important;
 }
 body {
-  font-family: "JetBrains Mono";
+  font-family: "JetBrains Mono",sans-serif;
   height: 100vh;
 }
 </style>
